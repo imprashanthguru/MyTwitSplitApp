@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prashanthgurunath.twitsplitapp.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/user_input_container_text_input_layout_id"
+
+            >
+
+            <TextView
+                android:textColor="#012"
+                android:id="@+id/message_text_view_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+
+                />
+
+        </ScrollView>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/user_input_container_text_input_layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="55dp">
+
+            <EditText
+                android:id="@+id/user_input_edit_text_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#f123"
+                android:hint="Enter Message"
+                android:imeOptions="actionDone"
+                android:inputType="textShortMessage"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/send_button_id"
+                android:text="Send"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <com.google.android.gms.ads.AdView
+
+
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_ad_unit_id">
+
+        </com.google.android.gms.ads.AdView>
+
+
+
+        <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/coordinator_layout_id"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            tools:context=".MainActivity" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

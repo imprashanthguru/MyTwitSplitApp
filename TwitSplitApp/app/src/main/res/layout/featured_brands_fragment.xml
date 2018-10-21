@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/root_linear_layout_id"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Men"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:id="@+id/linear_layout_row0_id"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/sprit_icon"
+                    android:id="@+id/sprit_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+                <ImageView
+                    android:src="@drawable/calvin_klein_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/calvin_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+
+                    />
+                <ImageView
+                    android:src="@drawable/super_dry_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/super_dry_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_row1_id"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <ImageView
+                    android:src="@drawable/reebok_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/reebok_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+
+                    />
+                <ImageView
+                    android:src="@drawable/burton_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/burton_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+
+                    />
+                <ImageView
+                    android:src="@drawable/river_island_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/river_island_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Women"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:id="@+id/linear_layout_row2_id"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <ImageView
+                    android:src="@drawable/blanc_eclare_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/blanc_image_view__id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+                <ImageView
+                    android:src="@drawable/mango_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/mango_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+
+                <ImageView
+                    android:src="@drawable/river_island_women_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/river_island_women_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_row3_id"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+
+
+                <ImageView
+                    android:src="@drawable/super_dry_women_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/super_dry_women_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+                <ImageView
+                    android:src="@drawable/zalia_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/zalia_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+
+                <ImageView
+                    android:src="@drawable/anna_sui_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/anna_sui_image_view_id"
+                    android:freezesText="true"
+                    android:layout_marginEnd="3dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:text="Data from: https://www.zalora.com.my/men/?from=header"
+                />
+        </LinearLayout>
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+

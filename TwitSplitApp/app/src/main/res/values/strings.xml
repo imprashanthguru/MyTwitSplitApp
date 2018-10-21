@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">My TwitSplit App</string>
+
+
+    <string name="admob_app_id">ca-app-pub-9067547029538739~8176054174</string>
+    <string name="admob_ad_unit_id">ca-app-pub-9067547029538739/6176576790</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="zalora_website_link">https://worldwide.zalora.com/</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sprit_web_link">https://www.zalora.sg/men/esprit/?csa=espritaweighteen</string>
+    <string name="calvin_web_link">https://www.zalora.sg/men/calvin-klein/?csa=calvinkleinaweighteen</string>
+    <string name="super_dry_men_web_link">https://www.zalora.sg/men/superdry/?csa=superdryaweighteen</string>
+    <string name="reebok_web_link">https://www.zalora.sg/men/reebok/?csa=reeboksseighteen</string>
+    <string name="burton_web_link">https://www.zalora.sg/catalog/?q=burton</string>
+    <string name="river_island_men_web_link">https://www.zalora.sg/men/river-island/?csa=riverislandaweighteen</string>
+    <string name="zalia_web_link">https://www.zalora.sg/women/zalia/?csa=zaliaocteighteen</string>
+    <string name="mango_web_link">https://www.zalora.sg/women/mango/?csa=mangoaweighteen</string>
+    <string name="super_dry_women_web_link">https://www.zalora.sg/women/superdry/?csa=superdryaweighteen</string>
+    <string name="anna_sui_web_link">https://www.zalora.sg/anna-sui/</string>
+    <string name="river_island_women_web_link">https://www.zalora.sg/women/river-island/?csa=riverislandaweighteen</string>
+    <string name="blanc_web_link">https://www.zalora.sg/women/blanc-eclare/?csa=blancandeclareaweighteen</string>
+
+
+    <string name="zalora_app_package_name">com.zalora.android</string>
+
+    <string name="about_zalora"><![CDATA[Founded in 2012, ZALORA is known to be
+                                     the fastest growing online fashion retailer in Asia.
+                                     Localizing its products to fit the customer demands
+                                     in different countries from Singapore, Malaysia & Brunei,
+                                     Indonesia, Hong Kong, the Philippines and its new venture
+                                     in Taiwan, ZALORA definitely brings you the trendiest fashion
+                                     trends online. With over 500 international and local brands available
+                                     on the site, customers can easily browse through the wide selection of
+                                     clothes, accessories, bags and more while embracing the use of technology.
+                                     You will always be able to keep tabs on the trend curve ahead of time with a
+                                     click away while enjoying an amazing online shopping experience with ZALORA Malaysia.
+                                     ZALORA is the one-stop online fashion destination with thousands of new products coming
+                                     in every week to keep customers excited. Believing that your online shopping experience
+                                     should be easy and fun, we offer speedy deliveries with 30 days free return policy as well as
+                                     various payment methods.
+
+
+            ]]>  </string>
+
+
+
+    <string name="sg_website">http://www.zalora.sg</string>
+    <string name="sg_customer_care">customer@sg.zalora.com</string>
+    <string name="sg_phone_num">+65 3157 5555</string>
+
+    <string name="ph_website">http://www.zalora.com.ph</string>
+    <string name="ph_customer_care">customer@ph.zalora.com</string>
+    <string name="ph_phone_num">(02) 858 0777</string>
+
+    <string name="hk_website">http://www.zalora.com.hk</string>
+    <string name="hk_customer_care">customer@hk.zalora.com</string>
+    <string name="hk_phone_num">+852 3999 4200</string>
+
+    <string name="indonesia_website">http://www.zalora.co.id</string>
+    <string name="indonesia_customer_care">help@id.zalora.com</string>
+    <string name="indonesia_phone_num">021-2949-0100</string>
+
+    <string name="malaysia_website">http://www.zalora.com.my</string>
+    <string name="malaysia_customer_care">customer@my.zalora.com</string>
+    <string name="malaysia_phone_num">03 2035 6622</string>
+
+    <string name="brunei_website">http://www.zalora.com.my</string>
+    <string name="brunei_customer_care">customer@my.zalora.com</string>
+    <string name="brunei_phone_num">03 2035 6622</string>
+
+    <string name="tw_website">http://www.zalora.com.tw</string>
+    <string name="tw_customer_care">customer@tw.zalora.com</string>
+    <string name="tw_phone_num">070-1016</string>
+
+    <string name="zalora_facebook_link">https://www.facebook.com/ZaloraSingapore/</string>
+    <string name="zalora_instagram_link">https://www.instagram.com/ZALORA/</string>
+    <string name="zalora_twitter_link">https://twitter.com/zalorasingapore</string>
+    <string name="zalora_youtube_link">https://www.youtube.com/user/zalora</string>
+
+</resources>
+
